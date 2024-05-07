@@ -1,0 +1,12 @@
+package org.example;
+
+public class Iff {
+
+    public static void main(String[] args){
+        char[] chars = {''s','a','i','k' };
+        for(int i=0;i<chars.length-1;++i){
+            chars[i] = (char) (chars[i] -32);
+        }
+        System.out.println(chars);
+    }
+}
